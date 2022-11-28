@@ -4,7 +4,7 @@
 
 -- MODULES
 
-local palette = require("prgn-nvim-theme.palette")
+local palette = require("prgn-theme.palette")
 
 -- CODE
 

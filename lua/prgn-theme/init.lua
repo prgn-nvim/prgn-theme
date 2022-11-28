@@ -4,10 +4,10 @@
 
 -- MODULES
 
-local utils = require("prgn-nvim-theme.utils")
-local faces = require("prgn-nvim-theme.faces")
-local links = require("prgn-nvim-theme.links")
-local highlights = require("prgn-nvim-theme.highlights")
+local utils = require("prgn-theme.utils")
+local faces = require("prgn-theme.faces")
+local links = require("prgn-theme.links")
+local highlights = require("prgn-theme.highlights")
 
 -- CODE
 
