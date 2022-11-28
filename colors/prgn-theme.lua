@@ -2,7 +2,7 @@
 
 -- MODULES
 
-local theme = require("prgn-nvim-theme")
+local theme = require("prgn-theme")
 
 -- CODE
 
