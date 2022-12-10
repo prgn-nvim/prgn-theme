@@ -1,20 +1,12 @@
--- prgn-nvim-theme.lua
+-- prgn-theme.lua
 
 -- MODULES
 
 local theme = require("prgn-theme")
+local groups = require("prgn-theme/groups")
 
 -- CODE
 
-package.loaded["prgn-theme"] = nil
-package.loaded["prgn-theme.palette"] = nil
-package.loaded["prgn-theme.utils"] = nil
-package.loaded["prgn-theme.faces"] = nil
-package.loaded["prgn-theme.links"] = nil
-package.loaded["prgn-theme.highlights"] = nil
+theme.load(groups)
 
-theme.apply()
-
-vim.g.colors_name = "prgn-theme"
-
--- prgn-nvim-theme.lua ends here
+-- prgn-theme.lua ends here

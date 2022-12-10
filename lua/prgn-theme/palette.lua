@@ -15,6 +15,9 @@ local M  = {
   orange = { "#AF3A03", "#D65D0E", "#FE8019" }
 }
 
+M.foreground = M.white
+M.background = M.black
+
 return M
 
 -- palette.lua ends here

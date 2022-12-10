@@ -1,35 +1,31 @@
 -- init.lua
 
--- `prgn-theme` plugin
+-- `prgn-theme`
 
--- MODULES
+local theme = {}
 
-local utils = require("prgn-theme.utils")
-local faces = require("prgn-theme.faces")
-local links = require("prgn-theme.links")
-local highlights = require("prgn-theme.highlights")
+theme.load = function(groups)
 
--- CODE
-
-local M = {}
-
-M.apply = function()
-  -- Initialize faces
-  for group, attributes in pairs(faces) do
-    utils.highlight(group, attributes)
+  -- Ensure neovim version
+  if vim.version().minor < 7 then
+    vim.notify_once("prgn-theme: theme requires neovim version >= 0.7")
+    return
   end
 
-  -- Link groups
-  for group, face in pairs(links) do
-    utils.highlight(group, faces[face])
+  -- Reset theme colours
+  if vim.g.colors_name then
+    vim.cmd("hi clear")
   end
 
-  -- Highlight groups
-  for group, attributes in pairs(highlights) do
-    utils.highlight(group, attributes)
+  -- Set theme name
+  vim.g.colors_name = "prgn-theme"
+
+  -- Apply highlights
+  for group, options in pairs(groups) do
+    vim.api.nvim_set_hl(0, group, options)
   end
 end
 
-return M
+return theme
 
 -- init.lua ends here
