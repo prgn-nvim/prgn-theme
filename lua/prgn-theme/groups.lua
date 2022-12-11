@@ -56,7 +56,7 @@ local groups = {
   Statement             = { link = "Salient" },
   Repeat                = { link = "Salient" },
   Label                 = { link = "Salient" },
-  Operator              = { link = "Salient" },
+  Operator              = { link = "Default" },
   Keyword               = { link = "Salient" },
   Exception             = { link = "Salient" },
   Include               = { link = "Salient" },
