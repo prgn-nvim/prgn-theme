@@ -49,6 +49,14 @@ local groups = {
   FidgetTask  = { link = "Faded" },
   FidgetTitle = { link = "Popout" },
 
+  -- Gitsigns
+
+  GitSignsAdd               = { fg = palette["green"][1] },
+  GitSignsChange            = { fg = palette["yellow"][1] },
+  GitSignsCurrentLineBlame  = { link = "Faded" },
+  GitSignsDelete            = { fg = palette["red"][2] },
+  GitSignsStaged            = { fg = palette["green"][1] },
+
   -- Search
 
   CurSearch = { link = "Subtle" },
