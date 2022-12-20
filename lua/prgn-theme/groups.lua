@@ -67,7 +67,7 @@ local groups = {
 
   CurSearch = { link = "Subtle" },
   IncSearch = { link = "Subtle" },
-  Search = { link = "Subtle" },
+  Search    = { link = "Subtle" },
 
   -- Symbols Outline
 
@@ -98,7 +98,7 @@ local groups = {
   PreCondit             = { link = "Salient" },
   StorageClass          = { link = "Salient" },
   Type                  = { link = "Salient" },
-  Structure             = { link = "Salient" },
+  Structure             = { link = "Default" },
   Typedef               = { link = "Salient" },
   Tag                   = { link = "Salient" },
   Special               = { link = "Popout" },
