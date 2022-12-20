@@ -57,6 +57,12 @@ local groups = {
   GitSignsDelete            = { fg = palette["red"][2] },
   GitSignsStaged            = { fg = palette["green"][1] },
 
+  -- Indent-Blankline
+
+  IndentBlanklineChar               = { fg = palette["black"][3] },
+  IndentBlanklineSpaceChar          = { fg = palette["black"][3] },
+  IndentBlanklineSpaceCharBlankline = { fg = palette["black"][3] },
+
   -- Search
 
   CurSearch = { link = "Subtle" },
