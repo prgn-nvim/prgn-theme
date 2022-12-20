@@ -36,6 +36,14 @@ local groups = {
     bg = palette["gray"][2]
   },
 
+  -- Completion
+
+  CmpItemAbbr             = { link = "Default" },
+  CmpItemAbbrDeprecated   = { fg = palette["gray"][2], strikethrough = true },
+  CmpItemAbbrMatch        = { link = "Popout" },
+  CmpItemAbbrMatchFuzzy   = { link = "Popout" },
+  CmpItemKind             = { link = "Faded" },
+
   -- Search
 
   CurSearch = { link = "Subtle" },
