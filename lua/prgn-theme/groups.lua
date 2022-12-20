@@ -112,6 +112,26 @@ local groups = {
   ["@parameter"]        = { link = "Default" },
   ["@property"]         = { link = "Default" },
 
+  -- Telescope
+
+  TelescopeTitle            = { link = "Faded" },
+  TelescopeBorder           = { fg = palette["black"][3] },
+  TelescopePromptPrefix     = { link = "Faded" },
+  TelescopePreviewPipe      = { link = "Faded" },
+  TelescopePreviewCharDev   = { link = "Faded" },
+  TelescopePreviewDirectory = { link = "Strong" },
+  TelescopePreviewBlock     = { link = "Faded" },
+  TelescopePreviewLink      = { link = "Faded" },
+  TelescopePreviewSocket    = { link = "Faded" },
+  TelescopePreviewRead      = { link = "Faded" },
+  TelescopePreviewWrite     = { link = "Faded" },
+  TelescopePreviewExecute   = { link = "Faded" },
+  TelescopePreviewSticky    = { link = "Faded" },
+  TelescopePreviewSize      = { link = "Faded" },
+  TelescopePreviewUser      = { link = "Faded" },
+  TelescopePreviewGroup     = { link = "Faded" },
+  TelescopePreviewDate      = { link = "Faded" },
+
   -- UI
 
   ColorColumn   = { bg = palette["black"][1] },
