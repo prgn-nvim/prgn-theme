@@ -44,6 +44,11 @@ local groups = {
   CmpItemAbbrMatchFuzzy   = { link = "Popout" },
   CmpItemKind             = { link = "Faded" },
 
+  -- Fidget
+
+  FidgetTask  = { link = "Faded" },
+  FidgetTitle = { link = "Popout" },
+
   -- Search
 
   CurSearch = { link = "Subtle" },
