@@ -69,6 +69,11 @@ local groups = {
   IncSearch = { link = "Subtle" },
   Search = { link = "Subtle" },
 
+  -- Symbols Outline
+
+  SymbolsOutlineConnector = { fg = palette["black"][3] },
+  FocusedSymbol           = { link = "Popout" },
+
   -- Syntax
 
   String                = { link = "Popout" },
