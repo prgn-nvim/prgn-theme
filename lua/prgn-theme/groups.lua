@@ -135,15 +135,16 @@ local groups = {
   -- UI
 
   ColorColumn   = { bg = palette["black"][1] },
-  EndOfBuffer   = { link = "Faded" },
+  EndOfBuffer   = { fg = palette["black"][3] },
   Folded        = { link = "Faded" },
-  LineNr        = { link = "Faded" },
-  LineNrAbove   = { link = "Faded" },
-  LineNrBelow   = { link = "Faded" },
+  LineNr        = { fg = palette["black"][3] },
+  LineNrAbove   = { fg = palette["black"][3] },
+  LineNrBelow   = { fg = palette["black"][3] },
   MatchParen    = { link = "Subtle" },
-  ModeMsg       = { link = "Faded" },
+  MsgSeparator  = { fg = palette["black"][3] },
   MoreMsg       = { link = "Faded" },
   Normal        = { fg = palette["white"][2], bg = palette["black"][2] }, -- Doesn't work with link
+  NonText       = { fg = palette["black"][3] },
   Pmenu         = { fg = palette["white"][2], bg = palette["black"][1] },
   PmenuSel      = { link = "Subtle" },
   Question      = { link = "Faded" },
@@ -152,8 +153,8 @@ local groups = {
   VertSplit     = { link = "Faded" },
   Visual        = { link = "Subtle" },
   WarningMsg    = { link = "Critical" },
-  WhiteSpace    = { link = "Faded" },
-  WinSeparator  = { link = "Faded" }
+  WhiteSpace    = { fg = palette["black"][3] },
+  WinSeparator  = { fg = palette["black"][3] }
 }
 
 return groups
